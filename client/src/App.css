@@ -64,5 +64,74 @@ button{
     }
 }
 
+.cards-div{
+    width: auto;
+    display: flex;
+    font-size: 2vh;
+    align-items: center;
+    background-color: rgb(240, 235, 243) ;
+    padding: 30px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:10px;
+
+}
 
 
+.card{
+    height:200px;
+    width:200px;
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:2px;
+    border-radius:100px;
+    border:3px solid rgba(205, 133, 236, 0.345);
+    transition:.2s;
+    background-color:rgba(239, 181, 228, 0.345);
+    font-family: "Poppins", sans-serif;
+    transition:.2s;
+    color: #fff ;
+    font-weight:bold ;
+}
+.hover:hover {
+    transform:scale(1.09)
+}
+.card:hover{
+transform:scale(1.09)
+}
+.allusersDiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ui, li {
+    list-style-type: none;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 2vh;
+    align-items: center;
+    transition:.2s;
+    padding:40px;
+    }
+
+.img:hover{
+    transform:scale(1.09)
+    }
+
+img{
+    transition:.2s
+    }
+
+ .img-hover:hover{
+        transform:scale(1.3)
+    }    
